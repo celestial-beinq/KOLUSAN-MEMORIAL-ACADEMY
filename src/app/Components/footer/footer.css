@@ -1,5 +1,5 @@
 /* =========================================
-   JON BITRICE COLLEGE - SIMPLE FOOTER
+   KOLUSAN MEMORIAL HIGH SCHOOL  - SIMPLE FOOTER
    ========================================= */
 
 .site-footer {
@@ -69,7 +69,7 @@
 }
 
 .footer-nav a:hover {
-  color: #0052cc;
+  color: #021E5C;
 }
 
 /* -----------------------------------------
@@ -105,7 +105,7 @@
 }
 
 .contact-item:hover {
-  color: #0052cc;
+  color: #021E5C;
 }
 
 .contact-item svg {
@@ -115,7 +115,7 @@
 }
 
 .contact-item:hover svg {
-  color: #0052cc;
+  color: #021E5C;
 }
 
 .contact-whatsapp:hover {
@@ -180,7 +180,7 @@
 .copyright-text {
   font-size: clamp(0.72rem, 0.92vw, 0.84rem);
   font-weight: 750;
-  color: #0052cc;
+  color: #021E5C;
   letter-spacing: -0.01em;
 }
 

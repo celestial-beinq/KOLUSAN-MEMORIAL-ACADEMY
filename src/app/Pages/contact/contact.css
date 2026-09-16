@@ -1,5 +1,5 @@
 /* =========================================
-   CONTACT PAGE STYLES - JON BITRICE COLLEGE
+   CONTACT PAGE STYLES - KOLUSAN MEMORIAL HIGH SCHOOL 
    ========================================= */
 
 .contact-page-main {
@@ -87,8 +87,8 @@
   width: 8px;
   height: 8px;
   border-radius: 0%;
-  background: #0052cc;
-  box-shadow: 0 0 10px #0052cc;
+  background: #021E5C;
+  box-shadow: 0 0 10px #021E5C;
   animation: contactBadgePulse 2s infinite ease-in-out;
 }
 
@@ -166,7 +166,7 @@
 }
 
 .portal-sticker-badge .badge-pill {
-  background-color: #0052cc;
+  background-color: #021E5C;
   color: #ffffff;
   font-weight: 800;
   font-size: clamp(0.78rem, 1.4vw, 0.88rem);
@@ -238,7 +238,7 @@
 }
 
 .contact-breadcrumbs-nav a {
-  color: #0052cc;
+  color: #021E5C;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -414,7 +414,7 @@
 }
 
 .asterisk {
-  color: #0052cc;
+  color: #021E5C;
   font-weight: 800;
   margin-left: 2px;
 }
@@ -455,7 +455,7 @@
 
 .btn-secure-submit {
   width: 100%;
-  background-color: #0052cc;
+  background-color: #021E5C;
   color: #ffffff;
   font-weight: 800;
   font-size: 1rem;
@@ -473,7 +473,7 @@
 }
 
 .btn-secure-submit:hover:not(:disabled) {
-  background-color: #0052cc;
+  background-color: #021E5C;
   transform: translateY(-2px);
   box-shadow: 0 9px 25px rgba(235, 79, 39, 0.4);
 }
@@ -565,7 +565,7 @@
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  color: #0052cc;
+  color: #021E5C;
   text-transform: uppercase;
   margin-bottom: 0.6rem;
 }
@@ -618,7 +618,7 @@
 }
 
 .map-feature-item i {
-  color: #0052cc;
+  color: #021E5C;
   font-size: 1.15rem;
 }
 
@@ -641,7 +641,7 @@
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.1em;
-  color: #0052cc;
+  color: #021E5C;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -680,7 +680,7 @@
 }
 
 .faq-card.open {
-  border-color: #0052cc;
+  border-color: #021E5C;
   box-shadow: 0 6px 20px rgba(255, 102, 0, 0.08);
 }
 
@@ -705,7 +705,7 @@
 }
 
 .faq-card.open .q-text {
-  color: #0052cc;
+  color: #021E5C;
 }
 
 .faq-question-btn i {
@@ -715,7 +715,7 @@
 }
 
 .faq-card.open .faq-question-btn i {
-  color: #0052cc;
+  color: #021E5C;
 }
 
 .faq-answer-panel {

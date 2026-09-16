@@ -36,7 +36,7 @@
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #0052cc;
+  color: #021E5C;
   text-transform: uppercase;
   margin-bottom: 0.4rem;
 }
@@ -97,7 +97,7 @@
   .pillar-card:hover {
     transform: translateY(-8px) rotate(0deg) scale(1.02);
     box-shadow: 0 24px 45px rgba(255, 102, 0, 0.12);
-    border-color: #0052cc;
+    border-color: #021E5C;
     z-index: 5;
   }
 }
@@ -124,7 +124,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   background-color: #f0f7ff;
-  color: #0052cc;
+  color: #021E5C;
   padding: 0.35rem 0.75rem;
   border-radius: 4px;
 }
