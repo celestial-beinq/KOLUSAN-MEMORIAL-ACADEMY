@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { Navbar } from '../../Components/navbar/navbar';
@@ -73,7 +73,7 @@ export class GalleryPage {
       categoryLabel: 'SPORTS ARENA',
       image: 'images/campus-sports.jpg',
       description:
-        'Intense competition and sportsmanship on our FIFA-dimension pitch during the annual HYBRID SCHOOLS Games.',
+        'Intense competition and sportsmanship on our FIFA-dimension pitch during the annual JON BITRICE COLLEGE Games.',
       badge: 'Athletics Day',
     },
     {
@@ -123,7 +123,7 @@ export class GalleryPage {
       categoryLabel: 'COURT SPORTS',
       image: 'images/IMG_4342.JPG',
       description:
-        'HYBRID SCHOOLS basketball squad displaying tactical precision and agility on our outdoor courts.',
+        'JON BITRICE COLLEGE basketball squad displaying tactical precision and agility on our outdoor courts.',
       badge: 'Championship Match',
     },
     {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
@@ -35,17 +35,17 @@ export class ContactPage {
     {
       question: 'When does admission for the 2026/2027 Academic Session open?',
       answer:
-        'Admissions for JSS 1, JSS 2, and SSS 1 are currently ongoing. Entrance examinations and scholarship screening tests take place on the first Saturday of every month at our Lekki campus.',
+        'Admissions for JSS 1, JSS 2, and SSS 1 are currently ongoing. Entrance examinations and scholarship screening tests take place on the first Saturday of every month at our Egan campus.',
       isOpen: true,
     },
     {
-      question: 'Does HYBRID SCHOOLS offer both Day and Boarding options?',
+      question: 'Does JON BITRICE COLLEGE offer both Day and Boarding options?',
       answer:
-        'Yes! We offer premium modern boarding facilities with 24/7 power, CCTV security, resident house parents, and healthcare personnel, as well as day schooling with air-conditioned bus shuttle services across Lagos Island, Lekki, Ikoyi, Victoria Island, and Ajah.',
+        'Yes! We offer premium modern boarding facilities with 24/7 power, CCTV security, resident house parents, and healthcare personnel, as well as day schooling with air-conditioned bus shuttle services across Egan, Igando, Isheri, Alimosho, and environs.',
       isOpen: false,
     },
     {
-      question: 'What curriculum does HYBRID SCHOOLS teach?',
+      question: 'What curriculum does JON BITRICE COLLEGE teach?',
       answer:
         'We run an integrated dual curriculum: the Nigerian National Curriculum (preparing candidates for BECE, WAEC/WASSCE, and NECO) and the British Cambridge International Curriculum (IGCSE & Checkpoint).',
       isOpen: false,
@@ -59,7 +59,7 @@ export class ContactPage {
     {
       question: 'Can parents schedule a weekday campus tour?',
       answer:
-        'Absolutely. Guided campus tours are conducted Mondays through Fridays between 9:00 AM and 2:00 PM. Please book via this contact form or call 08056719403, 08023656054.',
+        'Absolutely. Guided campus tours are conducted Mondays through Fridays between 9:00 AM and 2:00 PM. Please book via this contact form or call 08062631578.',
       isOpen: false,
     },
   ];
