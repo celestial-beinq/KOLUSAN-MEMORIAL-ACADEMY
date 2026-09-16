@@ -1,4 +1,4 @@
-﻿/* =========================================
+/* =========================================
    JON BITRICE COLLEGE - SIGNATURE APP NAVBAR
    ========================================= */
 
@@ -53,6 +53,7 @@
     transform: translate(-50%, -40px);
     opacity: 0.8;
   }
+
   to {
     transform: translate(-50%, 0);
     opacity: 1;
@@ -64,19 +65,20 @@
     transform: translateX(-50%) translateY(-40px);
     opacity: 0.8;
   }
+
   to {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
   }
 }
 
-.luxel-nav {
+.jbc-nav {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
-  background-color: #ff6600;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -84,7 +86,7 @@
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -.5px;
-  color: #fff;
+  color: #0052cc;
   white-space: nowrap;
   flex-shrink: 0;
   text-decoration: none;
@@ -104,13 +106,13 @@
   gap: 2rem;
   align-items: center;
   margin: 0 auto;
-  color: #fff;
+  color: #0052cc;
   padding: 0;
 }
 
 .nav-links a:not(.btn-get-started) {
   text-decoration: none;
-  color: #fff;
+  color: #0052cc;
   font-weight: 600;
   font-size: .8rem;
   letter-spacing: 1px;
@@ -123,12 +125,12 @@
 }
 
 .nav-links a:not(.btn-get-started):hover {
-  color: #fff;
+  color: #0052cc;
   opacity: 0.9;
 }
 
 .nav-links a.active {
-  color: #fff;
+  color: #0052cc;
   opacity: 1;
   font-weight: 700;
 }
@@ -187,7 +189,7 @@
   display: block;
   width: 20px;
   height: 2px;
-  background: #fff;
+  background: #0052cc;
   border-radius: 2px;
   transition: all .35s cubic-bezier(.4, 0, .2, 1);
   transform-origin: center;
@@ -257,7 +259,7 @@
 .drawer-brand {
   font-size: 1.15rem;
   font-weight: 750;
-  color: #ff6600;
+  color: #0052cc;
   letter-spacing: -0.3px;
   display: flex;
   align-items: center;
@@ -305,24 +307,25 @@
   display: flex;
   align-items: center;
   background: #f6f6f6;
-  color: #ff6600;
+  color: #0052cc;
   gap: 0.85rem;
   padding: 0.9rem 1rem;
   border-radius: 0px;
   font-size: 0.95rem;
   font-weight: 650;
   text-decoration: none;
+  text-transform: capitalize;
   transition: all 0.2s ease;
 }
 
 .drawer-links li a i {
   font-size: 1.15rem;
-  color: #ff6600;
+  color: #0052cc;
 }
 
 .drawer-links li a:hover {
   background: #f6f6f6;
-  color: #ff6600;
+  color: #0052cc;
 }
 
 .drawer-footer {
@@ -333,7 +336,7 @@
 .drawer-cta {
   display: block;
   text-align: center;
-  background: #ff6600;
+  background: #0052cc;
   color: #ffffff;
   padding: 0.9rem 1rem;
   border-radius: 0px;
@@ -342,13 +345,13 @@
   text-transform: uppercase;
   letter-spacing: 0.8px;
   text-decoration: none;
-  box-shadow: 0 4px 14px rgba(255, 102, 0, 0.3);
+  /* box-shadow: 0 4px 14px rgba(255, 102, 0, 0.3); */
   transition: all 0.2s ease;
 }
 
 .drawer-cta:hover {
   background: #0060c2;
-  box-shadow: 0 6px 18px rgba(255, 102, 0, 0.4);
+  /* box-shadow: 0 6px 18px rgba(255, 102, 0, 0.4); */
   transform: translateY(-1px);
 }
 
@@ -380,7 +383,7 @@
     z-index: 1200;
   }
 
-  .nav-wrapper .luxel-nav {
+  .nav-wrapper .jbc-nav {
     border-radius: 0px;
     padding: 0 1.25rem;
   }

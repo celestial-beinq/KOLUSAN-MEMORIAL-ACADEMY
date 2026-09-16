@@ -1,4 +1,4 @@
-﻿/* =========================================
+/* =========================================
    CONTACT PAGE STYLES - JON BITRICE COLLEGE
    ========================================= */
 
@@ -87,8 +87,8 @@
   width: 8px;
   height: 8px;
   border-radius: 0%;
-  background: #99cc33;
-  box-shadow: 0 0 10px #99cc33;
+  background: #0052cc;
+  box-shadow: 0 0 10px #0052cc;
   animation: contactBadgePulse 2s infinite ease-in-out;
 }
 
@@ -128,9 +128,9 @@
 }
 
 .contact-hero-title .title-highlight {
-  background: linear-gradient(100deg, #ffffff 10%, #7dd3fc 55%, #99cc33 100%);
+  background: linear-gradient(100deg, #ffffff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
 }
 
 .contact-hero-subtext {
@@ -166,7 +166,7 @@
 }
 
 .portal-sticker-badge .badge-pill {
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #ffffff;
   font-weight: 800;
   font-size: clamp(0.78rem, 1.4vw, 0.88rem);
@@ -238,7 +238,7 @@
 }
 
 .contact-breadcrumbs-nav a {
-  color: #99cc33;
+  color: #0052cc;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -311,7 +311,7 @@
   flex-shrink: 0;
 }
 
-.badge-orange {
+.badge-blue {
   background: #fff1ee;
   color: #eb4f27;
 }
@@ -414,7 +414,7 @@
 }
 
 .asterisk {
-  color: #ff6600;
+  color: #0052cc;
   font-weight: 800;
   margin-left: 2px;
 }
@@ -455,7 +455,7 @@
 
 .btn-secure-submit {
   width: 100%;
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #ffffff;
   font-weight: 800;
   font-size: 1rem;
@@ -473,7 +473,7 @@
 }
 
 .btn-secure-submit:hover:not(:disabled) {
-  background-color: #ff6600;
+  background-color: #0052cc;
   transform: translateY(-2px);
   box-shadow: 0 9px 25px rgba(235, 79, 39, 0.4);
 }
@@ -565,7 +565,7 @@
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  color: #ff6600;
+  color: #0052cc;
   text-transform: uppercase;
   margin-bottom: 0.6rem;
 }
@@ -618,7 +618,7 @@
 }
 
 .map-feature-item i {
-  color: #ff6600;
+  color: #0052cc;
   font-size: 1.15rem;
 }
 
@@ -641,7 +641,7 @@
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.1em;
-  color: #ff6600;
+  color: #0052cc;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -680,7 +680,7 @@
 }
 
 .faq-card.open {
-  border-color: #ff6600;
+  border-color: #0052cc;
   box-shadow: 0 6px 20px rgba(255, 102, 0, 0.08);
 }
 
@@ -705,7 +705,7 @@
 }
 
 .faq-card.open .q-text {
-  color: #ff6600;
+  color: #0052cc;
 }
 
 .faq-question-btn i {
@@ -715,7 +715,7 @@
 }
 
 .faq-card.open .faq-question-btn i {
-  color: #ff6600;
+  color: #0052cc;
 }
 
 .faq-answer-panel {

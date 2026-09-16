@@ -60,7 +60,7 @@
 .tilted-portal-badge {
   display: inline-flex;
   align-items: center;
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #ffffff;
   text-decoration: none;
   border: 2.5px solid #000000;
@@ -141,7 +141,7 @@
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 1.8px;
-  color: #ff6600;
+  color: #0052cc;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -195,7 +195,7 @@
   width: 20px;
   height: 20px;
   border-radius: 0px;
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #ffffff;
   display: flex;
   align-items: center;

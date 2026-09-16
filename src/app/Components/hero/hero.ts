@@ -1,6 +1,7 @@
-﻿import { Component, HostListener, OnInit, OnDestroy, Inject, PLATFORM_ID, NgZone } from '@angular/core';
+import { Component, HostListener, OnInit, OnDestroy, Inject, PLATFORM_ID, NgZone } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { Navbar } from '../navbar/navbar';
 
 export interface HeroSlide {
   image: string;
@@ -18,7 +19,7 @@ export interface HeroSlide {
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, Navbar],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
 })
@@ -30,9 +31,9 @@ export class Hero implements OnInit, OnDestroy {
     {
       image: 'images/hero-slide-1.jpg',
       alt: 'Dedicated student writing and learning in classroom',
-      badge: 'Admissions Open · 2026/2027 Academic Session',
+      badge: 'Admissions Open 2026/2027 Academic Session',
       titlePrefix: 'Empowering Young Minds,',
-      titleHighlight: 'Building Tomorrow’s Leaders',
+      titleHighlight: 'Building Tomorrows Leaders',
       subtext: 'At JON BITRICE COLLEGE, we provide an inspiring learning environment combining academic excellence, innovative STEM training, and moral discipline to prepare every child for global success.',
       primaryBtnText: 'Apply for Admission',
       primaryBtnLink: '/apply',
@@ -42,13 +43,13 @@ export class Hero implements OnInit, OnDestroy {
     {
       image: 'images/IMG_4343.JPG',
       alt: 'Enthusiastic students reading together in school library',
-      badge: 'Holistic Education · Crèche to College Prep',
+      badge: 'Holistic Education Creche to College Prep',
       titlePrefix: 'Inspiring Curiosity,',
       titleHighlight: 'Nurturing Global Achievers',
       subtext: 'Experience a vibrant school culture where hands-on inquiry, collaborative learning, and dedicated mentorship empower students to excel academically, socially, and creatively.',
-      primaryBtnText: 'Book a Campus Tour',
+      primaryBtnText: 'Apply For Admission',
       primaryBtnLink: '/apply',
-      secondaryBtnText: 'Discover Campus Life',
+      secondaryBtnText: 'Discover More',
       secondaryBtnLink: '#campus-life'
     }
   ];

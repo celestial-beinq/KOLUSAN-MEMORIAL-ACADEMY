@@ -4,7 +4,7 @@
 
 .action-section {
   position: relative;
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #fff;
   padding: clamp(5.5rem, 11vh, 8.5rem) 1.5rem clamp(3.5rem, 6vh, 5rem);
   overflow: hidden;
@@ -100,7 +100,7 @@
   display: inline-flex;
   align-items: stretch;
   background-color: #fff;
-  color: #ff6600;
+  color: #0052cc;
   text-decoration: none;
   border: 2px solid #000;
   border-radius: 0px;
@@ -122,14 +122,14 @@
   font-weight: 800;
   letter-spacing: 1.2px;
   text-transform: uppercase;
-  color: #ff6600;
+  color: #0052cc;
   padding: 0.85rem 1.45rem;
   display: flex;
   align-items: center;
   white-space: nowrap;
 }
 
-.badge-orange-square {
+.badge-blue-square {
   background-color: #f59e0b;
   display: flex;
   align-items: center;
@@ -139,7 +139,7 @@
   transition: background-color 0.2s ease;
 }
 
-.compass-login-badge:hover .badge-orange-square {
+.compass-login-badge:hover .badge-blue-square {
   background-color: #d97706;
 }
 
@@ -181,8 +181,8 @@
 }
 
 .footer-underline-link:hover {
-  color: #ff6600;
-  text-decoration-color: #ff6600;
+  color: #0052cc;
+  text-decoration-color: #0052cc;
 }
 
 /* -----------------------------------------

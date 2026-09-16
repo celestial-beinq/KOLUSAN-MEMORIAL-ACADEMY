@@ -1,8 +1,8 @@
-﻿:host {
+:host {
   display: block
 }
 
-.luxel-hero {
+.jbc-hero {
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -80,7 +80,7 @@
 .progress-track {
   height: 100%;
   width: 0%;
-  background: linear-gradient(90deg, #ff6600, #99cc33, #fff);
+  background: linear-gradient(90deg, #0052cc, #0052cc, #fff);
   box-shadow: 0 0 10px rgba(153, 204, 51, .7)
 }
 
@@ -225,7 +225,7 @@
 
 .indicator.active .indicator-label {
   opacity: 1;
-  color: #99cc33;
+  color: #0052cc;
   font-weight: 700
 }
 
@@ -278,19 +278,20 @@
     transform: translateX(-50%) translateY(-40px);
     opacity: 0.8;
   }
+
   to {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
   }
 }
 
-.luxel-nav {
+.jbc-nav {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
-  background-color: #ff6600;
+  background-color: #fff;
   position: relative;
 }
 
@@ -298,7 +299,7 @@
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -.5px;
-  color: #fff;
+  color: #0052cc;
   white-space: nowrap;
   flex-shrink: 0;
   display: flex;
@@ -317,13 +318,13 @@
   gap: 2rem;
   align-items: center;
   margin: 0 auto;
-  color: #fff;
+  color: #0052cc;
   padding: 0;
 }
 
 .nav-links a:not(.btn-get-started) {
   text-decoration: none;
-  color: #fff;
+  color: #0052cc;
   font-weight: 600;
   font-size: .8rem;
   letter-spacing: 1px;
@@ -334,7 +335,7 @@
 }
 
 .nav-links a:not(.btn-get-started):hover {
-  color: #fff
+  color: #0052cc
 }
 
 .btn-get-started.desktop-btn {
@@ -444,8 +445,8 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #99cc33;
-  box-shadow: 0 0 10px #99cc33;
+  background: #0052cc;
+  box-shadow: 0 0 10px #0052cc;
   animation: badgeDotPulse 2s infinite ease-in-out;
 }
 
@@ -482,9 +483,9 @@
 }
 
 .title-highlight {
-  background: linear-gradient(100deg, #ffffff 10%, #7dd3fc 55%, #99cc33 100%);
+  background: linear-gradient(100deg, #ffffff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
 }
 
 .hero-subtext {
@@ -506,7 +507,7 @@
 }
 
 .btn-learn-more {
-  background: #ff6600;
+  background: #0052cc;
   color: #ffffff;
   font-weight: 600;
   padding: clamp(0.78rem, 1.4vw, 0.95rem) clamp(1.6rem, 2.4vw, 2.2rem);
@@ -573,7 +574,7 @@
 .pillar-number {
   font-size: clamp(1.1rem, 1.8vw, 1.35rem);
   font-weight: 700;
-  color: #99cc33;
+  color: #0052cc;
   line-height: 1;
 }
 
@@ -610,7 +611,7 @@
   display: block;
   width: 20px;
   height: 2px;
-  background: #fff;
+  background: #0052cc;
   border-radius: 2px;
   transition: all .35s cubic-bezier(.4, 0, .2, 1);
   transform-origin: center
@@ -686,7 +687,7 @@
 .drawer-brand {
   font-size: 1.2rem;
   font-weight: 800;
-  color: #ff6600;
+  color: #0052cc;
   letter-spacing: -0.3px;
 }
 
@@ -717,6 +718,7 @@
 .drawer-links {
   list-style: none;
   margin: 0;
+  text-transform: uppercase;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -726,8 +728,8 @@
 .drawer-links li a {
   display: flex;
   align-items: center;
-   background: #f6f6f6;
-  color: #ff6600;
+  background: #f6f6f6;
+  color: #0052cc;
   gap: 0.85rem;
   padding: 0.9rem 1rem;
   border-radius: 0px;
@@ -735,13 +737,13 @@
   font-weight: 650;
   color: #1e293b;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.5px;
   transition: all 0.2s ease;
 }
 
 .drawer-links li a i {
-  color: #ff6600;
+  color: #0052cc;
   font-size: 1.15rem;
   width: 22px;
   text-align: center;
@@ -749,7 +751,7 @@
 
 .drawer-links li a:hover {
   background: #f6f6f6;
-  color: #ff6600;
+  color: #0052cc;
 }
 
 .drawer-footer {
@@ -760,7 +762,7 @@
 .drawer-cta {
   display: block;
   text-align: center;
-  background: #ff6600;
+  background: #0052cc;
   color: #ffffff;
   padding: 0.9rem 1rem;
   border-radius: 0px;
@@ -812,7 +814,7 @@
     z-index: 1200;
   }
 
-  .nav-wrapper .luxel-nav {
+  .nav-wrapper .jbc-nav {
     border-radius: 0px;
     padding: 0 1.25rem;
   }

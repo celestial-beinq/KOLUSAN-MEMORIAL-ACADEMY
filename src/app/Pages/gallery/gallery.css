@@ -1,4 +1,4 @@
-﻿/* =========================================
+/* =========================================
    GALLERY PAGE STYLES - JON BITRICE COLLEGE
    ========================================= */
 
@@ -47,9 +47,9 @@
   inset: 0;
   z-index: 2;
   background: linear-gradient(135deg,
-    rgba(8, 14, 34, 0.78),
-    rgba(13, 20, 48, 0.55),
-    rgba(255, 102, 0, 0.22));
+      rgba(8, 14, 34, 0.78),
+      rgba(13, 20, 48, 0.55),
+      rgba(255, 102, 0, 0.22));
   pointer-events: none;
 }
 
@@ -87,14 +87,23 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #99cc33;
-  box-shadow: 0 0 10px #99cc33;
+  background: #0052cc;
+  box-shadow: 0 0 10px #0052cc;
   animation: badgeDotPulse 2s infinite ease-in-out;
 }
 
 @keyframes badgeDotPulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.4); opacity: 0.55; }
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.4);
+    opacity: 0.55;
+  }
 }
 
 .gallery-hero-badge .badge-text {
@@ -119,9 +128,9 @@
 }
 
 .gallery-hero-title .title-highlight {
-  background: linear-gradient(100deg, #ffffff 10%, #7dd3fc 55%, #99cc33 100%);
+  background: linear-gradient(100deg, #ffffff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #fff;
 }
 
 .gallery-hero-subtext {
@@ -157,7 +166,7 @@
 }
 
 .portal-sticker-badge .badge-pill {
-  background-color: #ff6600;
+  background-color: #0052cc;
   color: #ffffff;
   font-weight: 800;
   font-size: clamp(0.78rem, 1.4vw, 0.88rem);
@@ -229,7 +238,7 @@
 }
 
 .gallery-breadcrumbs-nav a {
-  color: #99cc33;
+  color: #0052cc;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -280,14 +289,14 @@
 }
 
 .filter-pill-btn:hover {
-  border-color: #ff6600;
-  color: #ff6600;
+  border-color: #0052cc;
+  color: #0052cc;
 }
 
 .filter-pill-btn.active {
-  background: #ff6600;
+  background: #0052cc;
   color: #ffffff;
-  border-color: #ff6600;
+  border-color: #0052cc;
   box-shadow: 0 4px 14px rgba(255, 102, 0, 0.3);
 }
 
@@ -299,7 +308,7 @@
 }
 
 .gallery-meta-count strong {
-  color: #ff6600;
+  color: #0052cc;
 }
 
 /* -----------------------------------------
@@ -326,7 +335,7 @@
 .photo-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
-  border-color: #ff6600;
+  border-color: #0052cc;
 }
 
 .photo-img-wrap {
@@ -397,7 +406,7 @@
 .photo-cat {
   font-size: 0.75rem;
   font-weight: 800;
-  color: #99cc33;
+  color: #0052cc;
   letter-spacing: 0.05em;
   margin-bottom: 0.3rem;
 }
@@ -432,7 +441,7 @@
 .footer-tag {
   font-size: 0.72rem;
   font-weight: 700;
-  color: #ff6600;
+  color: #0052cc;
   background: #eff6ff;
   padding: 0.2rem 0.55rem;
   border-radius: 4px;
@@ -456,8 +465,13 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .lightbox-content {
@@ -475,8 +489,13 @@
 }
 
 @keyframes scaleUp {
-  from { transform: scale(0.95); }
-  to { transform: scale(1); }
+  from {
+    transform: scale(0.95);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .lightbox-close {
@@ -499,7 +518,7 @@
 }
 
 .lightbox-close:hover {
-  background: #ff6600;
+  background: #0052cc;
   transform: scale(1.08);
 }
 
@@ -523,7 +542,7 @@
 .lightbox-badge {
   font-size: 0.78rem;
   font-weight: 800;
-  color: #ff6600;
+  color: #0052cc;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.4rem;
@@ -552,7 +571,7 @@
 }
 
 .cta-inner {
-  background: linear-gradient(135deg, #ff6600 0%, #0052cc 100%);
+  background: linear-gradient(135deg, #0052cc 0%, #0052cc 100%);
   border-radius: 20px;
   padding: clamp(2.5rem, 5vw, 3.5rem);
   color: #ffffff;
@@ -586,7 +605,7 @@
 
 .btn-cta-primary {
   background: #ffffff;
-  color: #ff6600;
+  color: #0052cc;
   font-weight: 800;
   padding: 0.85rem 1.75rem;
   border-radius: 8px;
